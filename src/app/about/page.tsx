@@ -21,7 +21,7 @@ export default function About() {
         {...fadeInUp}
       >
         <p className="text-lg text-secondary max-w-3xl mx-auto text-center">
-          I&apos;m a passionate Full Stack Developer with expertise in building modern web applications.
+          I&apos;m a passionate Full Stack Developer with passion in building modern web applications.
           With a strong foundation in both frontend and backend technologies, I create seamless
           user experiences and robust server-side solutions.
         </p>
@@ -68,10 +68,9 @@ export default function About() {
             <FaLaptopCode className="h-8 w-8 text-primary mb-4" />
             <h3 className="text-xl font-semibold mb-2">Backend</h3>
             <ul className="text-secondary space-y-2">
-              <li>Node.js</li>
-              <li>Express</li>
+              <li>Python</li>
               <li>PostgreSQL</li>
-              <li>MongoDB</li>
+              <li>Supabase</li>
             </ul>
           </motion.div>
           
@@ -84,9 +83,6 @@ export default function About() {
             <h3 className="text-xl font-semibold mb-2">Tools & Others</h3>
             <ul className="text-secondary space-y-2">
               <li>Git / GitHub</li>
-              <li>Docker</li>
-              <li>AWS</li>
-              <li>CI/CD</li>
             </ul>
           </motion.div>
         </motion.div>
@@ -110,7 +106,7 @@ export default function About() {
           initial="initial"
           animate="animate"
         >
-          <motion.div 
+          {/* <motion.div 
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
             variants={fadeInUp}
             {...cardHoverSmall}
@@ -122,9 +118,9 @@ export default function About() {
               <li>Implemented CI/CD pipelines reducing deployment time by 50%</li>
               <li>Mentored junior developers and conducted code reviews</li>
             </ul>
-          </motion.div>
+          </motion.div> */}
           
-          <motion.div 
+          {/* <motion.div 
             className="bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md"
             variants={fadeInUp}
             {...cardHoverSmall}
@@ -136,7 +132,7 @@ export default function About() {
               <li>Built responsive user interfaces with modern JavaScript frameworks</li>
               <li>Optimized database queries improving performance by 40%</li>
             </ul>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </motion.section>
 
@@ -162,10 +158,10 @@ export default function About() {
             variants={fadeInUp}
             {...cardHoverSmall}
           >
-            <h3 className="text-xl font-semibold mb-2">Bachelor of Science in Computer Science</h3>
-            <p className="text-primary mb-2">University Name • 2014 - 2018</p>
+            <h3 className="text-xl font-semibold mb-2">Bachelor Software Engineer</h3>
+            <p className="text-primary mb-2">HogeSchool Van Amsterdam(HVA) • 2022 - 2026</p>
             <p className="text-secondary">
-              Graduated with honors. Focused on software engineering and web development.
+              Graduated with a focus on webdevelopment and AI.
             </p>
           </motion.div>
         </motion.div>
