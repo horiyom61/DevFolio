@@ -17,23 +17,23 @@ export default function Footer() {
           
           <div className="flex space-x-6">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/horiyom61"
               target="_blank"
               rel="noopener noreferrer"
               className="text-secondary hover:text-primary transition-colors"
             >
               <FaGithub className="h-6 w-6" />
             </a>
-            <a
+            {/* <a
               href="https://twitter.com/yourusername"
               target="_blank"
               rel="noopener noreferrer"
               className="text-secondary hover:text-primary transition-colors"
             >
               <FaTwitter className="h-6 w-6" />
-            </a>
+            </a> */}
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/aydin-koca-501527329"
               target="_blank"
               rel="noopener noreferrer"
               className="text-secondary hover:text-primary transition-colors"

@@ -28,7 +28,7 @@ export default function Hero() {
               {...fadeIn}
               transition={{ delay: 0.8 }}
             >
-              John Doe
+              Aydin Koca
             </motion.span>
           </motion.h1>
           <motion.p 
@@ -36,7 +36,7 @@ export default function Hero() {
             {...fadeInUp}
             transition={{ delay: 0.4 }}
           >
-            Full Stack Developer | UI/UX Enthusiast | Open Source Contributor
+            Full Stack Developer | AI Enthusiast
           </motion.p>
           <motion.div 
             className="flex justify-center space-x-4 mb-8"
@@ -44,7 +44,7 @@ export default function Hero() {
             transition={{ delay: 0.5 }}
           >
             <motion.a
-              href="https://github.com"
+              href="https://github.com/horiyom61"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
@@ -54,7 +54,7 @@ export default function Hero() {
               <FaGithub />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/aydin-koca-501527329"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary transition-colors"
@@ -63,7 +63,7 @@ export default function Hero() {
             >
               <FaLinkedin />
             </motion.a>
-            <motion.a
+            {/* <motion.a
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -72,7 +72,7 @@ export default function Hero() {
               whileTap={{ scale: 0.9 }}
             >
               <FaTwitter />
-            </motion.a>
+            </motion.a> */}
           </motion.div>
           <motion.div 
             className="flex flex-col md:flex-row justify-center gap-4"
